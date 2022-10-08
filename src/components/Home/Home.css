@@ -1,0 +1,52 @@
+.home {
+    background-image: url(./images/wallpaper.jpg);
+    background-size: cover;
+    height: 97%;
+}
+
+.home .home-icons {
+    width: 100%;
+    justify-content: center;
+    background-color: transparent;
+}
+.home .home-icons img {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 110%;
+}
+
+.home .home-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #888;
+    width: 90%;
+    border-radius: 50px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.home .home-search .home-search-left, .home .home-search .home-search-right {
+    background-color: transparent; 
+}
+
+.home .home-search .home-search-left img {
+    height: 20px;
+    width: 20px;
+    background: #888;
+    margin-left: 15px;
+}
+
+.home .home-search .home-search-right img {
+    height: 20px;
+    width: 20px;
+    background: #888;
+    margin-right: 15px;
+    margin-left: 5px;
+}

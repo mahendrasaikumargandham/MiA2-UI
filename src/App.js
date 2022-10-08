@@ -18,6 +18,7 @@ function App() {
           <Routes>
             <Route path = "/" element = {<LockedScreen />} />
             <Route path = "/emergency" element = {<Emergency />} />
+            <Route path = "/home" element = {<Home />} />
           </Routes>
         </Router>
       </div>
