@@ -1,0 +1,57 @@
+.lockedscreen-lock {
+    width: 100%;
+    align-items: center;
+}
+.lockedscreen-lock p {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.lockedscreen-data {
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lockedscreen-data:hover {
+    animation: animate 1s linear alternate;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-25px);
+    }
+    25% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.lockedscreen-data h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.lockedscreen-data h4 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.lockedscreen-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 84%;
+}
+
+.lockedscreen-bottom a h4 {
+    text-transform: uppercase;
+}
