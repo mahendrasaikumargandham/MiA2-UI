@@ -15,7 +15,7 @@ function Home() {
     <div className='home'>
       <Header />
       <div className = "home-screen">
-
+        
       </div>
       <div className = "home-icons">
         <img src = {phone} alt = '' />

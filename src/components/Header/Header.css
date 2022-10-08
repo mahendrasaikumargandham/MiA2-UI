@@ -3,7 +3,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-buttom: 10px;
     background-color: #000000;
 }
 

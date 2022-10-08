@@ -3,8 +3,13 @@
     background-size: cover;
     height: 97%;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
+.home-screen {
+    padding: 0;
+    margin: 0;
+}
 .home .home-icons {
     width: 100%;
     justify-content: center;
@@ -57,6 +62,9 @@
 }
 
 @media(max-width:768px) {
+    .home {
+        margin-top: 7px;
+    }
     .insta {
         visibility: hidden;
     }
