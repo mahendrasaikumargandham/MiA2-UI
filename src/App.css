@@ -57,7 +57,7 @@
     height: 600px;
     width: 300px;
     overflow-x: hidden;
-    transform: translate(5px, 5px);
+    transform: translate(5%, 5px);
     margin-left: 5%;
   }
   .container {
