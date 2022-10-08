@@ -22,7 +22,7 @@ function Home() {
         <img src = {discord} alt = '' />
         <img src = {play} alt = '' />
         <img src = {chrome} alt = '' />
-        <img src = {instagram} alt = '' />
+        <img className = "insta" src = {instagram} alt = '' />
       </div>
       <div className = "home-search">
         <div className = "home-search-left">
