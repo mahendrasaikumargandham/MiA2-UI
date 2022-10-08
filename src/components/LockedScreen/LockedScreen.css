@@ -49,9 +49,24 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 10px;
-    margin-top: 84%;
+    margin-top: 32%;
 }
 
 .lockedscreen-bottom a h4 {
     text-transform: uppercase;
+}
+
+.lockscreen-unlock {
+    width: 90%;
+}
+.lockscreen-unlock a h4 {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 14%;
+    text-transform: uppercase;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 999px;
 }

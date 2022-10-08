@@ -19,7 +19,7 @@ function LockedScreen() {
             <h4>mahendra gandham</h4>
         </div>
         <div className = "lockscreen-unlock">
-            
+            <Link to = "/home"><h4>Click to unlock</h4></Link>
         </div>
         <div className = "lockedscreen-bottom">
             <p><MicNoneIcon /></p>
